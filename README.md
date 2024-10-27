@@ -7,7 +7,7 @@ REPLICATION STEPS: The only file that needs to be downloaded by the reader is fr
 2) Master.DO will execute all programs and produce the desired figures.
 3) If you wish to run the programs step by step:
    - First, run the program "S1_create_education_shift.DO". This takes 2019 and 2021 CPS data as inputs and create changes in online learning by 2-digit occupation.
-   - Second, run the program "S2_create_bartik_naics3_.DO". This takes OES employment information as an input to create 3-digit industry-occupation employment shares, followed by the creation of my shift-share variable.
-   - Third, run the program "S3_create_bartik_naics4_.DO". This takes OES employment information to create 4-digit industry-occupation employment shares, followed by the creation of my shift-share variable.
+   - Second, run the program "S2_create_bartik_naics3_.DO". This takes OES employment information as an input to create 3-digit industry-occupation employment shares, followed by the creation of my shift-share variable at the 3-digit industry level.
+   - Third, run the program "S3_create_bartik_naics4_.DO". This takes OES employment information as an input to create 4-digit industry-occupation employment shares, followed by the creation of my shift-share variable at the 4-digit industry level.
    - Fourth, run "figure1_bds_firm_entry.DO". This is the first event study that plots the point estimates of a regression of the online learning shift-share on startup entry. The figure will be saved in the figures folder. 
    - Fifth, run "figure2_bfs_bizformation.DO". This is the second event study that plots the point estimates of a regression of the online learning shift-share on business formation. The figure will be saved in the figures folder. 
