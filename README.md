@@ -5,7 +5,7 @@ REPLICATION STEPS: The only file that needs to be downloaded by the reader is fr
 
 1) In each program please make sure to change the following directory to match your machine: global home "/mq/home/scratch/m1oma00/oma_projects/coding_task". This is the only path that needs to be changed.
 2) Master.DO will execute all programs and produce the desired figures.
-3) If you wish to run the code step by step:
+3) If you wish to run the programs step by step:
    - First, run the program "S1_create_education_shift.DO". This takes 2019 and 2021 CPS data as inputs and create changes in online learning by 2-digit occupation.
    - Second, run the program "S2_create_bartik_naics3_.DO". This takes OES employment information to create 3-digit industry-occupation employment shares, followed by the creation of my shift-share variable.
    - Third, run the program "S3_create_bartik_naics4_.DO". This takes OES employment information to create 4-digit industry-occupation employment shares, followed by the creation of my shift-share variable.
